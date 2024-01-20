@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+
+    <div class="calculator">
+        <label for="num1">Enter number 1:</label>
+        <input type="number" id="num1">
+
+        <label for="num2">Enter number 2:</label>
+        <input type="number" id="num2">
+
+        <button onclick="add()">Add</button>
+        <button onclick="subtract()">Subtract</button>
+        <button onclick="multiply()">Multiply</button>
+        <button onclick="divide()">Divide</button>
+
+        <p id="result">Result: </p>
+    </div>
+
+    <script src="cal.js"></script>
+</body>
+</html>
